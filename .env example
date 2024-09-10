@@ -1,0 +1,16 @@
+DEBUG=True
+ALLOWED_HOSTS = ['198.211.99.20', 'localhost', '127.0.0.1']
+SECRET_KEY ='django-insecure-sj9s4*%_%+k0r+)(3=5_e9_ll22&0b&k@x*9)w1yj!j!xc+jdq'
+
+# Database Secrets
+PGHOST=''
+PGDATABASE='neondb' #  you can use neondb free tier as db 
+PGUSER='neondb_owner'
+PGPASSWORD=''
+
+
+
+#Google oauth creds
+DJANGO_OAUTH_GENERATED_CLIENT_ID = ""
+GOOGLE_CLIENT_ID = ''
+GOOGLE_CLIENT_SECRET = ''
